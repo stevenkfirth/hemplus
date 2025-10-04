@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hemplus"
+version = "0.0.0"
+authors = [
+  { name="Steven Firth", email="s.k.firth@lboro.ac.uk" },
+]
+description = "The Home Energy Model, but refactored to a full Python package."
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    
+]
+
+[tool.setuptools]
+packages = ["hemplus"]
+
+[project.urls]
+Homepage = "https://github.com/stevenkfirth/hemplus"
